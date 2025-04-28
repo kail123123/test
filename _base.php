@@ -82,7 +82,7 @@ function save_photo($f, $folder, $width = 200, $height = 200) {
     return $photo;
 }
 
-// Is money?
+// Is money
 function is_money($value) {
     return preg_match('/^\-?\d+(\.\d{1,2})?$/', $value);
 }
